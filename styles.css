@@ -1,0 +1,247 @@
+body {
+    margin: 0%;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.logo {
+    margin-left:355px;
+    background-color: #4aaaa5;
+    color: white;
+
+}
+
+.header {
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #dddddd;
+
+  }
+
+  .header a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px; 
+    line-height: 25px;
+  }
+  
+  .active {
+      color: grey;
+      font-family: sans-serif;
+  }
+  .portfolio {
+      color: grey;
+      font-family: sans-serif;
+  }
+
+  .contact {
+      color: grey;
+      font-family: sans-serif;
+      margin-right: 355px;
+  }
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+.header-right {
+    float: right;
+  }
+
+.aboutme {
+    font-size: 20px;
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+.img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-me-text {
+    margin-top: 34px;
+    font-family: sans-serif;
+    color: #666666
+}
+
+.p3 {
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: #666666
+}
+
+.bio-container {
+    margin: auto;  
+    margin-top: 50px;
+    width: 940px;
+    height: 470px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+.hr {
+    height: 4px;
+    width: 900px;
+    background-color:#e7e7e7;
+    color:#cacaca;
+    border: 0 none;
+    margin-bottom: 40px;
+
+}
+
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #666666;
+        color: white;      
+        border-top: 10px solid #4aaaa5;
+    }
+
+  
+    .footertext {
+        font-size: 12px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+/* Portfolio Styles */
+
+.portfolio-container {
+    margin: auto;  
+    margin-top: 50px;
+    width: 940px;
+    height: 1000px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #4aaaa5;
+    width: 275px;
+    float: left;
+}
+
+div.gallery img {
+    width: 275px;
+    height: auto;
+    
+}
+
+div.desc {
+    color: white;
+    background-color: #4aaaa5;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+  .footer2 {
+    position: relative;
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: white;      
+    border-top: 10px solid #4aaaa5;
+    
+}
+
+/* Form Styles */
+
+/* Need to fill in images tomorrow then under here will go all the css for contact make sure to watch video on forms */
+
+/* Style inputs with type="text", select elements and textareas */
+.contactme {
+    font-size: 20px;
+    color: #4aaaa5;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+input[type=text], select, textarea {
+    margin-left: 35px;
+    width: 890px; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+
+/* button styles */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 35px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* hover psudeo class */
+input[type=submit]:hover {
+    background-color: lightgrey;
+}
+
+.name {
+    margin-left: 35px;
+}
+
+.email {
+    margin-left: 35px;
+}
+
+.message {
+    margin-left: 35px;
+}
+
+/* Add a background color and some padding around the form */
+.contactcard {
+    margin-top: 370px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 960px;
+    border: 1px solid#dddddd;
+    background-color: white;
+    
+}
+
+.footercontact {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: white;      
+    border-top: 10px solid #4aaaa5;
+}
+
+
+.footercontact {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
